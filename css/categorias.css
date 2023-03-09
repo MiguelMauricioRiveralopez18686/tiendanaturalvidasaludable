@@ -1,0 +1,30 @@
+.categorias {
+    margin-bottom: 20px;
+  }
+  
+  .categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .categorias li {
+    margin-right: 20px;
+  }
+  
+  .categorias li:last-child {
+    margin-right: 0;
+  }
+  
+  .categorias a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .categorias a:hover {
+    color: #008CBA;
+  }
