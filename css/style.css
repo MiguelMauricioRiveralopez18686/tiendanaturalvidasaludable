@@ -12,7 +12,9 @@ body {
   header h1{
     font-family: 'Nunito';
     text-align: center;
-  }
+    font-weight: 700;
+   text-shadow: 2px 2px rgb(35, 35, 35);  
+}
   main {
     padding: 20px;
   }
