@@ -70,7 +70,7 @@ header {
   a{text-decoration: none; color: #fff;}
   .product__mostrar {
     float: right;
-    margin-right: 8rem;
+    margin-right: 10rem;
     color: var(--color_fondo-o-letra_botones-2);
     font-weight: 500;
     font-size: 1rem;
@@ -80,7 +80,16 @@ header {
 .product__mostrar img {
     margin-left: 5px;
 }
-  @media (max-width: 768px) {
+.card{
+  margin: .7rem;
+  transition: 1s all ease-in-out;
+    box-shadow: 2px 2px 2px 2px rgb(176, 176, 176);
+}
+.card:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
     .producto {
       width: 90%;
       margin: 10px auto;
