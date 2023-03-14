@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Tienda Naturista Arbol de la Vida</title>
+    <link rel="icon" href="img/logo.jpg" type="image/x-jpg" >
+    <link href="css/reset.css" rel="stylesheet" type="text-css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/nudito.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Arbol de la Vida</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link bi bi-house-fill" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi bi-person-fill" aria-current="page" href="quienesSomos.html">Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active bi bi-bag-fill" aria-current="page" href="productos.html"> Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi bi-envelope-at-fill" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi bi-question-circle-fill " href="ayuda.html"> Ayuda</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success bi bi-search" type="submit"></button>
+                </form>
+                <a class="btn btn-primary" style="margin: 1rem;" href="login.html" role="button">Ingresar</a>
+          </div>
+        </div>
+      </nav>
+    <header>
+        <h1><img class="logo" src="img/logo.jpg" width="140px" height="140px"><br>TIENDA NATURISTA ARBOL DE LA VIDA <br>De la Madre Naturaleza para Tí</h1>
+    </header>
+    <main id="cosmeticos">
+        <a class="btn btn-primary" style="float: right; margin-top: -8px;" href="agregar_productos.html" role="button">Agregar Productos</a>
+        <h2 style="text-align: center;">Cosméticos <a class = "product__mostrar" href = "categoriasproductos/cosmeticos/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos" id="cosmeticos" data-cosmeticos="cosmeticos">
+            <div class="producto" id="cosmeticos" data-cosmetico="shampoo-ortiga-aloe-vera-500cc">
+                <img src="img/cosm/shampoo-savila.jpg" alt="Shampoo de Ortiga con Aloe Vera 500 gramos">
+                <h2>Shampoo de Ortiga con Aloe Vera 500 gramos</h2>
+                <p>Para todo tipo de cabello, revitaliza y embellece el cabello.</p>
+                <p>Precio: $27.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="./categoriasProductos/cosmeticos/shampoo-ortiga-aloe-vera-500cc.html">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="cosmeticos" data-cosmeticos="ShampooPrevencion-Caida-Sin-Sal-400ml">
+                <img src="img/cosm/shampoo-sin-sal.png" alt="Shampoo Prevencion Caida Sin Sal 400ML">
+                <h2>Shampoo Prevencion Caida Sin Sal 400ML</h2>
+                <p>Nutre y fortalece la raíz favoreciendo el crecimiento natural del cabello.</p>
+                <p>Precio: $25.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="./categoriasProductos/cosmeticos/shampoo-prevencion-caida-sin-sal-400ml.html">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="cosmeticos" data-cosmeticos="bloqueador-solar-pantalla-fps-60">
+                <img src="img/cosm/bloqueador.png" alt="Bloqueador solar con Pantalla FPS 60">
+                <h2>Bloqueador solar</h2>
+                <p>Bloqueador solar con Pantalla FPS 60.</p>
+                <p>Precio: $25.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="./categoriasproductos/cosmeticos/bloqueador-solar-pantalla-fps-60.html">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <main id="fitoterapeuticos">
+        <h2 style="text-align: center;">Fitoterapeuticos <a class = "product__mostrar" href = "categoriasproductos/fitoterapeuticos/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos" data-fitoterapeuticos="fitoterapeuticos">
+            <div class="producto" id="fitoterapeutico_1" data-fitoterapeutico_1="fitoterapeutico_1">
+                <img src="img/fito/fito1.jpg" alt="Producto 1">
+                <h2>Balance B Complex</h2>
+                <p>Descripción </p>
+                <p>Precio: $17.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="fitoterapeutico_2" data-fitoterapeutico_2="fitoterapeutico_2">
+                <img src="img/fito/fito2.jpg" alt="Producto 2">
+                <h2>Fitoterapeutico 2</h2>
+                <p>Descripción 2.</p>
+                <p>Precio: $25.000</p>
+                <button><a href=#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="fitoterapeutico_3" data-fitoterapeutico_3="fitoterapeutico_3">
+                <img src="img/fito/fito3.jpg" alt="Producto 3">
+                <h2>Fitoterapeutico 3</h2>
+                <p>Descripción 3.</p>
+                <p>Precio: $35.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <main id="homeopaticos">
+        <h2 style="text-align: center;">Homeopaticos <a class = "product__mostrar" href = "categoriasproductos/homeopaticos/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos">
+            <div class="producto" id="homeopatico_1" data-homeopatico_1="homeopatico_1">
+                <img src="img/homeo/gotas-felicidad.jpg" alt="Producto 1">
+                <h2>Gotas de la Felicidad</h2>
+                <p>Actúa como tranquilizante natural mejorando transtornos del 
+                sueño y aliviando síntomas de agustia, tristeza, estrés y ansiedad.</p>
+                <p>Precio: $17.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="./categoriasProductos/homeopaticos/gotas-felicidad.html">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="homeopatico_2" data-homeopatico_2="homeopatico_2">
+                <img src="img/homeo/gotas-cataratas.jpg" alt="Producto 2">
+                <h2>Gotas Cataratas</h2>
+                <p>Descripción del producto 2.</p>
+                <p>Precio: $25.000</p>
+                <button><a href=#">Comprar Producto</a></button>
+                <button><a href="./categoriasProductos/homeopaticos/gotas-cataratas.html">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="homeopatico_3" data-homeopatico_3="homeopatico_3">
+                <img src="img/homeo/gotas-glaucoma.jpg" alt="Producto 3">
+                <h2>Gotas Glaucoma</h2>
+                <p>Descripción del producto 3.</p>
+                <p>Precio: $25.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="./categoriasProductos/homeopaticos/gotas-glaucoma.html">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <main id="nutricionales">
+        <h2 id="nutricionales" style="text-align: center;">Nutricionales <a class = "product__mostrar" href = "categoriasproductos/nutricionales/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos" id="nutricionales">
+            <div class="producto" id="nutricional_1" data-nutricional_1="nutricional_1">
+                <img src="img/nutri/nutri1.jpg" alt="Producto 1">
+                <h2>Nutricionales 1</h2>
+                <p>Descripción del producto .</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="nutricional_2" data-nutricional_2="nutricional_2">
+                <img src="img/nutri/nutri2.jpg" alt="Producto 2">
+                <h2>Nutricionales 2</h2>
+                <p>Descripción del producto .</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="nutricional_3" data-nutricional_3="nutricional_3">
+                <img src="img/nutri/nutri3.jpg" alt="Producto 3">
+                <h2>Nutricionales 3</h2>
+                <p>Descripción del producto .</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <main>
+        <h2 style="text-align: center;" id="potenciadores">Potenciadores <a class = "product__mostrar" href = "categoriasproductos/potenciadores/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos">
+            <div class="producto" id="potenciador_1" data-potenciador_1="potenciador_1">
+                <img src="img/poten/poten1.jpg" alt="Producto ">
+                <h2>Potenciador 1</h2>
+                <p>Descripción del producto 1.</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="potenciador_2" data-potenciador_2="potenciador_2">
+                <img src="img/poten/poten2.jpg" alt="Producto ">
+                <h2>Potenciador 2</h2>
+                <p>Descripción del producto 2.</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="potenciador_3" data-potenciador_3="potenciador_3">
+                <img src="img/poten/poten3.jpg" alt="Producto ">
+                <h2>Potenciador 3</h2>
+                <p>Descripción del producto 3.</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <main>
+        <h2 id="suplementos" style="text-align: center;">Suplementos <a class = "product__mostrar" href = "categoriasproductos/suplementos/index.html">ver todos<img alt = "ver todos icon"
+            src = "img/arow.svg"></a></h2>
+        <section class="productos" id="suplementos">
+            <div class="producto" id="suplemento_1" data-suplemento_1="Biotics - Fito Medics - Frasco x 30 Capsulas">
+                <img src="img/suplem/biotics.webp" alt="suplemento_1">
+                <h2>Biotics - Fito Medics - Frasco x 30 Cápsulas </h2>
+                <p>16 cepas probióticas, celulosa microcristalina, estearato de magnesio.</p>
+                <p>Precio: $67.000</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="suplemento_2" data-suplemento_2="suplemento_2">
+                <img src="img/suplem/suplem2.jpg" alt="suplemento_2">
+                <h2>Suplemento 2 </h2>
+                <p>Descripción del producto 2.</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+            <div class="producto" id="suplemento_3" data-suplemento_3="suplemento_3">
+                <img src="img/suplem/suplem3.jpg" alt="suplemento_3">
+                <h2>Suplemento 3 </h2>
+                <p>Descripción del producto 3.</p>
+                <p>Precio: $100.00</p>
+                <button><a href="#">Comprar Producto</a></button>
+                <button><a href="#">Ver Producto</a></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class = "contacto__container">
+            <div class = "contacto__logo">
+                <a href = "index.html">
+                    <img alt = "logo" class = "contacto__logoFooter" src = "img/logo.jpg" width="150px" height="150px">
+                </a>
+            </div>
+            <div class = "contacto__info">
+                <ul>
+                    <li class = "contacto__info-li"><a class = "contacto__info-text" href = "quienesSomos.html">Quienes somos</a></li>
+                    <li class = "contacto__info-li"><a class = "contacto__info-text" href = "docs/Politica-Privacidad-Tienda-Naturista-Arbol-de-la-Vida.pdf" target="_blank">Política de privacidad</a>
+                    </li>
+                    <li class = "contacto__info-li"><a class = "contacto__info-text" href = "docs/Terminos-y-Condiciones-Tienda-Naturista-Arbol-de-la-Vida.pdf" target="_blank">Terminos y Condiciones</a>
+                    </li>
+                    <li class = "contacto__info-li"><a class = "contacto__info-text" href = "docs/Politica-de-Envios-Arbol-de-la-Vida.pdf" target="_blank">Política de Envios</a></li>
+                </ul>
+            </div>
+            <form class = "contacto__contactar" id = "form__data">
+                <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
+    
+                <label class = "contacto__contactar-nombre contacto__textBox">
+                    Nombre
+                    <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
+                           required type = "text">
+                </label>
+    
+                <label class = "contacto__mensaje contacto__textBox">
+                    Escribe tu mensaje
+                    <textarea class = "contacto__mensaje-text" id = "contact__mensaje" required></textarea>
+                </label>
+    
+                <input class = "contacto__button" id = "contact__boton" type = "submit" value = "Enviar mensaje">
+            </form>
+        </section>
+        <div class="info__dev">
+            <p>Desarrollado por Miguel Mauricio Rivera López | 2023</p>
+            <p><a href="https://miguelmauricioriveralopez18686.github.io/portafolio/" target="_blank"><img
+                src="img/github.svg " alt="git"></a>
+        <a href="https://www.linkedin.com/in/miguel-mauricio-rivera-lopez" target="_blank"><img
+                src="img/linkedin.svg" alt="linkedin"></a></p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
