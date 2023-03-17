@@ -1,7 +1,7 @@
 .contacto__container {
     display: flex; flex-wrap: wrap; justify-content: space-evenly;padding: 30px 0;
     align-items: flex-start;width: 100%;background-color: rgb(239, 245, 253);}
-.contacto__info-li {  margin-bottom: 2rem;}
+.contacto__info-li {  margin-bottom: 1rem;list-style: none;}
 .contacto__info-text:hover {
     text-decoration: underline;
 }
@@ -51,7 +51,7 @@
 }
 
 .contacto__contactar-nombreInput::placeholder {
-    color: var(--color_placeholder);
+    color: rgb(60, 60, 60);
 }
 
 .contacto__mensaje-text, .contacto__mensaje-text:focus {

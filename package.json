@@ -1,0 +1,15 @@
+{
+  "name": "arboldelavida",
+  "version": "1.0.0",
+  "description": "Tienda Naturista Arbol de la Vida, De la Madre Naturaleza para Ti",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Miguel Mauricio Rivera Lopez",
+  "license": "ISC"
+}
