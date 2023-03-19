@@ -8,11 +8,15 @@
     <title>Tienda Naturista Arbol de la Vida</title>
     <link rel="icon" href="img/favicon.png" type="image/x-png">
     <link href="css/reset.css" rel="stylesheet" type="text-css">
+    <link href="css/boton-arriba.css" rel="stylesheet">
     <link href="css/Nunito.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/boton-arriba.js"></script>
 </head>
 <body id="inicio">
     <nav class="navbar fixed-top navbar-expand-lg bg-light" >
@@ -47,11 +51,10 @@
                         <a class="nav-link bi bi-question-circle-fill " href="#ayuda"> Ayuda</a>
                     </li>
                 </ul>
-                    <!--<form method="POST" class="d-flex" role="search"><input class="form-control me-2" id="search-input" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success bi bi-search" type="submit"></button></form>-->
-                    <script async src="https://cse.google.com/cse.js?cx=e311364641bfa4705">
-                    </script>
-                    <div class="gcse-search"></div>
+                <form method="POST" class="d-flex" role="search">
+                    <input class="form-control me-2" id="search-bar" type="text" placeholder="Buscar" aria-label="Search">
+                    <button id="#search-btn" class="btn btn-outline-success bi bi-search" type="submit"></button>
+                </form>
                 <a class="btn btn-success" style="margin: 1rem;" href="login.html" role="button">Ingresar</a>
             </div>
         </div>
@@ -69,45 +72,48 @@
             <div class="producto">
                 <h2>Cosméticos</h2>
                 <img src="img/cosm/cosm.jpg" alt="Cosméticos">
-                <p>En esta sección encontra productos para el cuidado corporal de la piel, el cabello, etc. </p>
+                <p>En esta sección encontrara productos para el cuidado corporal de la piel, el cabello, etc.</p>
                 <a class="btn btn-success" href="#nav-cosmeticos-tab" role="button">Ver  Productos</a>
             </div>
             <div class="producto">
-                <h2>Fitoterapeuticos</h2>
+                <h2>Fitoterapéuticos</h2>
                 <img src="img/fito/fito.jpg" alt="Fitoterapeuticos">
                 <p>En esta categoría ofrecemos productos cuyas sustancias activas provienen
-                   de material de la planta medicinal o asociaciones de estas, presentados en
-                   estado bruto.</p>
+                de material de la planta medicinal o asociaciones de estas, presentados
+                en estado bruto.</p>
                 <a class="btn btn-success" href="#nav-fitoterapeuticos-tab" role="button">Ver Productos</a>
             </div>
             <div class="producto">
-                <h2>Homeopaticos</h2>
+                <h2>Homeopáticos</h2>
                 <img src="img/homeo/homeo.jpg" alt="Homeopaticos">
-                <p>Categoría en la que encontrara formulas homeopaticas propias de la Tienda Naturista Árbol de 
-                    la Vida; que le aydaran para multiples enfermedades y garantizando que son de base natural.</p>
+                <p>Categoría en la que encontrara formulas homeopáticas propias de 
+                la Tienda Naturista Árbol de la Vida; que le ayudaran para múltiples enfermedades 
+                y garantizando que son de base natural.</p>
                 <a class="btn btn-success" href="#nav-homeopaticos-tab" role="button">Ver Productos</a>
             </div>
             <div class="producto">
                 <h2>Nutricionales</h2>
                 <img src="img/nutri/nutri.jpg" alt="Nutricionales">
-                <p>Aquí es la categoría en la que encontra productos que le seran un complento a su alimentación,
-                    ayudandole a mejorar y fortalecer su estado animico y fisico.  
+                <p>Aquí es la categoría en la que encontrara productos que le serán un
+                    complemento a su alimentación, ayudándole a mejorar y fortalecer
+                    su estado anímico y físico.
                 </p>
                 <a class="btn btn-success" href="#nav-nutricionales-tab" role="button">Ver Producto</a>
             </div>
             <div class="producto">
                 <h2>Potenciadores</h2>
                 <img src="img/poten/poten.jpg" alt="Potenciadores">
-                <p>Aqui en esta categoría encontrara productos que le ayudaran apotenciar su estado fisico y vitalizar su estado sexual.</p>
+                <p>Aquí en esta categoría encontrara productos que le ayudaran a potenciar su estado físico y vitalizar su estado
+                    sexual.</p>
                 <a class="btn btn-success" href="#nav-potenciadores-tab" role="button">Ver Productos</a>
             </div>
             <div class="producto">
                 <h2>Suplementos</h2>
                 <img src="img/suplem/suplem.jpg" alt="Suplementos">
-                <p>En esta categoría encontrara  son productos cuyo propósito es adicionar a 
-                    la dieta normal y  ser fuente concentrada de nutrientes y otras sustancias
-                     con efecto fisiológico o nutricional.</p>
-                    <a class="btn btn-success" href="#nav-suplementos-tab" role="button">Ver Productos</a>
+                <p>En esta categoría encontrara son productos cuyo propósito es adicionar a la
+                    dieta normal y ser fuente concentrada de nutrientes y otras sustancias con
+                    efecto fisiológico o nutricional.</p>
+                <a class="btn btn-success" href="#nav-suplementos-tab" role="button">Ver Productos</a>
             </div>
         </section>
     </main>
@@ -145,84 +151,25 @@
                 <section class="productos"  data-cosmeticos>
                     <div class="producto">
                         <img src="img/cosm/shampoo-ortiga-aloe-vera.jpg" alt="Shampoo de Ortiga con Aloe Vera 500 gramos">
-                        <h2>Shampoo de Ortiga con Aloe Vera </h2>
+                        <h2>Shampoo Ortiga Aloe Vera </h2>
                         <p>Precio: $27.000</p>
-                        <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <button data-boton-verproducto type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            Ver Producto
-                        </button>
-                    </div>
-                     <!-- Descripción Producto -->
-                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Producto Cosmético</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" alt="Cerrar"></button>
-                                </div>
-                                <div class="modal-body">
-                                        <div class="row g-0">
-                                            <div class="col-md-4">
-                                                <img src="img/cosm/shampoo-ortiga-aloe-vera.jpg" class="img-fluid rounded-start" alt="..." id="urlImagen" data-imagen="urlImagen">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body" >
-                                                    <h2 style="margin: 1rem;" class="card-title" id="nombre" data-nombre="nombre">Shampoo de Ortiga con Aloe Vera 500 gramos</h2>
-                                                    <p style="margin:1.75rem;" class="card-text" id="descripcion" data-descripcion="">Descripción: Para todo tipo de cabello, revitaliza y embellece el cabello.</p>
-                                                    <p style="margin: 1.75rem;" class="card-text" id="precio" data-precio="precio">Precio: <small class="text-muted">$27.000</small></p>
-                                                    <p style="margin: 1.75rem;" class="card-text">Modo de Uso: 
-                                                        <small class="text-muted">
-                                                            Aplique una cantidad en la zona del cuero cabelludo con masajes circulares y ascendentes,
-                                                            hasta lograr compelta humectación. Deja actuar por treinta (30) segundos.
-                                                            Retirar con en juaguw con abundate agua.
-                                                        </small></p>
-                                                    <a href="#" class="btn btn-success">Comprar Producto ...</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <main>
-                                            <h3 style="margin: 2rem;">Productos Similares</h3>
-                                            <section class="productos">
-                                                    <div class="card" style="width: 18rem; margin: .25rem;" id="cosmeticos" data-cosmetico="ShampooPrevencion-Caida-Sin-Sal-400ml">
-                                                        <img src="img/cosm/shampoo-sin-sal.png" class="card-img-top" alt="..." id="urlImagen" data-imagen="urlImagen">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title" id="nombre" data-nombre="nombre">Shampoo Prevención Caida </h5>
-                                                            <p class="card-text" id="precio" data-precio="precio">Precio: <small class="text-muted">$25.000</small></p>
-                                                            <a href="#" class="btn btn-success">Comprar Producto ...</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="card" style="width: 18rem; margin: .25rem;" id="cosmeticos" data-cosmetico="bloqueador-solar-pantalla-fps-60">
-                                                        <img src="img/cosm/bloqueador.png" class="card-img-top" alt="..." id="urlImagen" data-imagen="urlImagen">
-                                                        <div class="card-body">
-                                                            <h5 class="card-title" id="nombre" data-nombre="nombre">Bloqueador solar con Pantalla FPS 60</h5>
-                                                            <p class="card-text" id="precio" data-precio="precio">Precio: <small class="text-muted">$25.000</small></p>
-                                                            <a href="#" class="btn btn-success">Comprar Producto ...</a>
-                                                        </div>
-                                                    </div>
-                                            </section>
-                                        </main>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
+                        <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar </a>
+                        <a data-boton-comprar class="btn btn-success" href="productos/cosmeticos/shampoo_ortiga_aloe_vera.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img src="img/cosm/shampoo-sin-sal.png" alt="Shampoo Prevencion Caida Sin Sal 400ML" >
                         <h2>Shampoo Prevención Caida</h2>
-                        <!--<p>Nutre la raíz favoreciendo el crecimiento natural del cabello.</p>-->
                         <p>Precio: $25.000</p>
-                        <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar </a>
+                        <a data-boton-comprar class="btn btn-success" href="productos/cosmeticos/shampoo_prevencion_caida_sin_sal.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
-                        <img src="img/cosm/shampoo-savila.jpg" alt="Bloqueador solar con Pantalla FPS 60">
+                        <img src="img/cosm/shampoo-savila.jpg" alt="Shampoo de Savila">
                         <h2>Shampoo de Savila </h2>
                          <!--<p>Bloqueador solar con Pantalla FPS 60.</p>-->
                         <p>Precio: $25.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/cosmeticos/shampoo_sabila.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -236,21 +183,21 @@
                         <h2>Korean Ginseng</h2>
                         <p>Precio: $17.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/fitoterapeuticos/korean_ginseng.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto" id="fitoterapeutico_2" data-fitoterapeutico_2="fitoterapeutico_2">
                         <img src="img/fito/Cartilago-de-tiburon.jpg" alt="Producto 2">
                         <h2>Cartílago de tiburón</h2>
                         <p>Precio: $25.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/fitoterapeuticos/cartilago_tiburon.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto" id="fitoterapeutico_3" data-fitoterapeutico_3="fitoterapeutico_3">
                         <img src="img/fito/vitamina-c-1000.jpg" alt="Producto 3">
                         <h2>Vitamina C Plus Bioflavonoides</h2>
                         <p>Precio: $55.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/fitoterapeuticos/vitamina_c_plus_bioflavonoides.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -262,25 +209,23 @@
                     <div class="producto">
                         <img src="img/homeo/gotas-felicidad.jpg" alt="Producto 1">
                         <h2>Gotas de la Felicidad</h2>
-                        <!--<p>Actúa como tranquilizante natural mejorando transtornos del
-                            sueño y aliviando síntomas de agustia, tristeza, estrés y ansiedad.</p>-->
                         <p>Precio: $17.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/homeopaticos/gotas_felicidad.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto" id="homeopatico_2" data-homeopatico_2="homeopatico_2">
                         <img src="img/homeo/gotas-rescate.jpg" alt="Producto 2">
                         <h2>Gotas Rescate</h2>
                         <p>Precio: $25.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/homeopaticos/gotas_rescate.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto" id="homeopatico_3" data-homeopatico_3="homeopatico_3">
                         <img src="img/homeo/gotas-desapego.jpg" alt="Producto 3">
                         <h2>Gotas Desapego</h2>
                         <p>Precio: $25.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/homeopaticos/gotas_desapego.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -294,21 +239,21 @@
                         <h2>Colágeno Hidrolizado Marino</h2>
                         <p>Precio: $57.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/nutricionales/colageno_hidrolizado_marino.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img src="img/nutri/cr-brex.jpg" alt="Producto 2">
                         <h2>Cr Brex</h2>
                         <p>Precio: $38.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/nutricionales/cr_brex.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img src="img/nutri/factors.jpg" alt="Producto 3">
                         <h2>Factors</h2>
                         <p>Precio: $50.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/nutricionales/factors.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -322,21 +267,21 @@
                         <h2>Merumach</h2>
                         <p>Precio: $35.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/potenciadores/merumach.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img src="img/poten/mega-gainer-10libras.jpg" alt="Producto ">
                         <h2>Proteína Mega Gainer 10 Libras</h2>
                         <p>Precio: $193.900</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/potenciadores/proteina_mega_geinar_bolsa_10_libras.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img src="img/poten/power-sex.jpg" alt="Producto ">
                         <h2>Power Sex</h2>
                         <p>Precio: $100.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/potenciadores/power_sex.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -348,24 +293,23 @@
                     <div class="producto" >
                         <img data-urlimage="" src="img/suplem/biotics.jpg" alt="suplemento_1">
                         <h2 data-nombre="nombre">Biotics </h2>
-                        <!--<p>16 cepas probióticas, celulosa microcristalina, estearato de magnesio.</p>-->
-                        <p data-precio="precio">Precio: $67.000</p>
+                        <p data-precio="precio">Precio: $57.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/suplementos/biotics.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img data-urlimage src="img/suplem/balance-b-complex.jpg" alt="suplemento_2">
                         <h2 data-nombre>Balance B Super Complex </h2>
                         <p data-precio>Precio: $40.000</p>
                         <a data-boton-comprar="" class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/suplementos/balance_b_super_complex.html" role="button">Ver Producto</a>
                     </div>
                     <div class="producto">
                         <img data-urlimage src="img/suplem/antricol.jpg" alt="suplemento_3">
                         <h2 data-nombre>Antricol</h2>
                         <p data-precio>Precio: $32.000</p>
                         <a data-boton-comprar class="btn btn-success" href="#" role="button">Comprar</a>
-                        <a data-boton-verproducto class="btn btn-success" href="#" role="button">Ver Producto</a>
+                        <a data-boton-verproducto class="btn btn-success" href="productos/suplementos/antricol.html" role="button">Ver Producto</a>
                     </div>
                 </section>
             </main>
@@ -375,15 +319,18 @@
     <main>
         <section class="productos">
             <div class="producto">
-                <p>La Tienda Naturista Arból de la Vida es una empresa dedica a la medicina natural, a
-                    la venta de productos naturales, clasificados en diferentes categorias: fitoterapeuticos,
-                    homeopáticos, nutricionales, suplementos, pontenciadores y cosméticos.
+                <p>La Tienda Naturista Árbol de la Vida es una empresa dedica a la medicina
+                    natural, a la venta de productos naturales, clasificados en diferentes
+                    categorías: Fitoterapéuticos, homeopáticos, nutricionales, suplementos,
+                    potenciadores y cosméticos.
                 </p>
             </div>
             <div class="producto">
-                <p>También se ofrece a los clientes asesoria y productos naturales para todo tipo de enfermedad,
-                aclarando que los productos son de base natural y no farmaceutica. Los productos no intentan
-                diagnosticar, curar o tratar ninguna enfermedad y no reemplaza la consulta con un profesional de la salud.
+                <p>También se ofrece a los clientes asesoría y productos naturales para
+                    todo tipo de enfermedad, aclarando que los productos son de base natural
+                    y no farmacéutica. Los productos no intentan diagnosticar, curar o tratar
+                    ninguna enfermedad y no reemplaza la consulta con un profesional de la
+                    salud.
                 </p>
             </div>
         </section>
@@ -394,22 +341,23 @@
             <div class="producto">
                 <h2>Consulta Personalizada</h2>
                 <img src="img/serv/atencion.png" alt="Servicio 1" width="150px" height="150px">
-                <p>La Tienda Naturista Arból de la Vida, te ofrecemos consulta personalizada sin pedir cita bien
-                    sea presencial o via telefónica.
+                <p>La Tienda Naturista Árbol de la Vida, te ofrecemos consulta personalizada sin pedir cita bien sea presencial o vía
+                    telefónica.
                 </p>
             </div>
             <div class="producto">
                 <h2>Tips de Salud</h2>
                 <img src="img/serv/tips.png" alt="Servicio 2" width="150px" height="150px">
-                <p>También se ofrece a los clientes tips de salud para que mejoren su calidad de vida y como
-                valor agregado ya que son importantes para nosotros.
+                <p>También se ofrece a los clientes tips de salud para que mejoren su calidad de vida y como valor agregado ya que son
+                    importantes para nosotros.
                 </p>
             </div>
             <div class="producto">
                 <h2>Consejeria en Salud</h2>
                 <img src="img/serv/consejeria.png" alt="Servicio 3" width="150px" height="150px">
-                <p>Reflexiones que te ayudaran a conocer tus dolencias, tanto fisicas como mentales,
-                    mediante consejería que te permitira ver el fondo de su situación y salir un poco de ella.
+                <p>Reflexiones que te ayudaran a conocer tus dolencias, tanto físicas como
+                    mentales, mediante consejería que te permitirá ver el fondo de su
+                    situación y salir un poco de ella.
                 </p>
             </div>
         </section>
@@ -453,21 +401,21 @@
         <section class="productos">
             <div class="producto">
                 <h2>¿Cómo puedo comunicarme con la Árbol de la Vida?</h2>
-                <p>Para comunicarse con nosotros lo puede hacer por el formulario de contacto,
+                <p>Para comunicarse con nosotros lo puede hacer por el formulario de contacto, 
                     al correo electrónico: <a href="mailto:tnarbolvida@gmail.com">tnarbolvida@gmail.com</a>, 
-                    a los numeros de telefóno 6022177520 y al 3164201451.
+                    a los números de teléfono 6022177520 y al 3164201451.
                 </p>
             </div>
             <div class="producto">
-                <h2>¿Quíen asume el costo del envio de un producto?</h2>
-                <p>Los productos que los clientes compren por la tienda en linea 
-                    se les enviara por transportara y el cliente pagara el envion al llegarle el producto.
+                <h2>¿Quién asume el costo del envió de un producto?</h2>
+                <p>Los productos que los clientes compren por la tienda en línea se les enviara por
+                    transportadora y el cliente pagara el envió al llegarle el producto.
                 </p>
             </div>
             <div class="producto">
                 <h2>¿En cuánto tiempo llegara el producto que compre?</h2>
-                <p>Estara sujeto a los tiempos estipulados por la transportadora por donde se le  envie y
-                    también dependera del lugar donde el cliente se encuentre.
+                <p>Estará sujeto a los tiempos estipulados por la transportadora por donde se le envié y también dependerá del lugar
+                donde el cliente se encuentre.
                 </p>
             </div>
         </section>
@@ -527,8 +475,10 @@
             </p>
         </div>
     </footer>
+    <span class="ir-arriba bi bi-arrow-up-circle-fill" alt="Volver Arriba"></span>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="js/buscador.js"></script>
 </body>
 </html>
