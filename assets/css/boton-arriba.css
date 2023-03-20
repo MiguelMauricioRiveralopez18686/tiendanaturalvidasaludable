@@ -1,0 +1,15 @@
+.ir-arriba {
+	font-family: 'Noto Sans', sans-serif;
+	padding:20px;
+	display:inline-block;
+	background:rgb(25, 135, 84);
+	color:#fff;
+	position: fixed;
+	font-size:1rem;
+	bottom:10px;
+	right:10px;
+	display:none;
+	cursor:pointer;
+	transition: 1s all ease-in-out;
+}
+.ir-arriba:hover{background: rgb(16, 92, 57);transform: scale(1.1);}
