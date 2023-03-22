@@ -1,11 +1,14 @@
 import {productosServicios} from "../servicios/productos-servicios.js";
 
 const form = document.querySelector('[data-form]');
-const imgUrl = document.querySelector('[data-url]');
-const nombre = document.querySelector('[data-nombre]');
-const precio = document.querySelector('[data-precio]');
-const descripcion = document.querySelector('[data-descripcion]');
 const categoria = document.querySelector('[data-categoria]');
+const id = document.querySelector('[data-id]');
+const url = document.querySelector('[data-url]').value;
+const nombre = document.querySelector('[data-nombre]').value;
+const descripcion = document.querySelector('[data-descripcion]').value;
+const precio = document.querySelector('[data-precio]').value;
+const boton = document.querySelector('[data-boton]').value;
+const btn = document.querySelector('[data-btn]').value;
 
 const url = new URL(window.location);
 const id = url.searchParams.get("id");
