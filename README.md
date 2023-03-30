@@ -4,7 +4,6 @@ Ecommerce Tienda Natural Vida Saludable | Challenge # 4 Front End Alura Latam - 
 
 Cosméticos
 En esta sección encontrara productos para el cuidado corporal de la piel, el cabello, etc.
-![image](https://user-images.githubusercontent.com/91698396/228951002-b75e02d8-6568-4a06-b51e-d1a8c6f26327.png)
 
 Fitoterapéuticos
 En esta categoría ofrecemos productos cuyas sustancias activas provienen de material de la planta medicinal o asociaciones de estas, presentados en estado bruto.
