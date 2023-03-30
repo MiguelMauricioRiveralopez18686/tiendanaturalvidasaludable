@@ -1,0 +1,121 @@
+Cosmeticos
+
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-ortiga-aloe-vera-small.jpg
+ 	Shampoo de Ortiga con Aloe Vera 500 gramos
+ 	$27.000
+	Para todo tipo de cabello, revitaliza y embellece el cabello. Aplique una cantidad en la zona del cuero cabelludo con masajes 
+	circulares y ascendentes, hasta lograr compelta humectación. Deja actuar por treinta (30) segundos. Retirar con enjuague con abundante agua.
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-sin-sal-small.png
+	Shampoo Prevención Caida Sin Sal
+	$25.000
+	Nutre y fortalece la raíz favoreciendo el crecimiento natural del cabello.
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-savila-small.jpg
+	Shampoo de Savila
+	$27.000
+	Para todo tipo de cabello, revitaliza y embellece el cabello.
+
+
+fitoterapeuticos
+
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/fito/korean-ginseng-small.jpg
+	Korean Ginseng
+	$17.000
+	Estimula el sistema inmunológico, lo que podría ayudar al cuerpo a combatir infecciones y enfermedades.
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/fito/Cartilago-de-tiburon-small.jpg
+ 	Catílago de Tiburón
+ 	$25.000
+ 	complemento en los tratamientos para inhibir el desarrollo de tumores y otras afecciones degenerativas asociadas al envejecimiento óseo.
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/fito/vitamina-c-1000-small.jpg
+	Vitamina C Plus Bioflavonoides
+ 	$55.000
+	La vitamina C tiene propiedades antioxidantes, mejora la absorción del hierro y contribuye a la formación de colágeno 
+	para el funcionamiento de la piel.
+
+
+Homepaticos
+
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/homeo/gotas-felicidad-small.jpg
+        Gotas de la Felicidad
+        $17.000
+        Actúa como tranquilizante natural mejorando los transtornos del sueño, angustia, tristeza, estres y anciedad.
+      
+        
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/homeo/gotas-rescate-small.jpg
+        Gotas Rescate
+        $25.000
+        Esencia floral de Ceracifera D3, Clematide D3, Impaciencia D3, Heliantemo D3, Estrella de Belén D3
+       
+     
+        https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/homeo/gotas-desapego-small.jpg
+        Gotas Desapego
+        $25.000
+        Libera de apegos materiales y afectivos. Desapego.
+       
+
+Nutricionales
+
+
+ 	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/nutri/colageno-hidrolizado-marino-small.jpg
+        Colágeno Hidrolizado Marino
+        $57.000
+        Para el cuidado de tus tejidos blandos y articulaciones.
+
+        
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/nutri/cr-brex-small.jpg
+        CR Brex
+        $38.000
+        Es un cereal natural que aporta vitaminas A, D y E, ayuda a prevenir la anemia y mejorar el funcionamiento del sistema nervioso
+       
+        
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/nutri/factors-small.jpg
+        Factors
+        $50.000
+        Complemento nutricional a base de avena con guanábana y vitamina C.
+
+
+Potenciadores
+
+
+   	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/poten/meru-mach-small.jpg
+   	Merumach
+   	$35.000
+   	Alimento a base de malto dextrina con malta, chontaduro, borojó.
+       
+   	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/poten/mega-gainer-10libras-small.jpg
+   	Proteína Mega Gainer 10 Libras
+   	$193.900
+   	Es un excelente complemento alimenticio capaz de mejorar de forma notable tu disponibilidad energética.
+      
+ 	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/poten/power-sex-small.jpg
+        Power Sex 
+        $100.000
+        Energizante basado en frutas y plantas que intensifican las virtudes de los nutrientes afrodisíacos.
+      
+Suplementos
+
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/suplem/biotics-small.jpg
+	Biotics
+	$57.000
+	Suplemento dietario a base de prebióticos y probióticos
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/suplem/balance-b-complex-small.jpg
+	Balance B Super Complex
+	$40.000
+	El complejo B juegan es importante en la producción de energía en el cuerpo humano.
+
+	
+	https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/suplem/antricol-small.jpg
+	Antricol
+	$32.000
+	Coadyuvante en el tratamiento sintomático de la artritis y osteoartritis reumatoidea, tendinitis y lumbalgias.

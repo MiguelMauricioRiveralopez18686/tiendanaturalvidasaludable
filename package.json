@@ -1,0 +1,15 @@
+{
+  "name": "tnvidasaludable",
+  "version": "1.0.0",
+  "description": "Tienda Natural Vida Saludable",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "Miguel Mauricio Rivera Lopez",
+  "license": "ISC"
+}
