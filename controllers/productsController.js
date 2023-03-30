@@ -33,12 +33,12 @@ export const nuevoProducto = (name, price, imageUrl, id) => {
     return card;
 };
 
-const productos1 = document.querySelector('[data-cosmeticosCategoria]');
-const productos2 = document.querySelector('[data-fitoterapeuticosCategoria]');
-const productos3 = document.querySelector('[data-homeomaticosCategoria]');
-const productos4 = document.querySelector('[data-nutricionalesCategoria]');
-const productos5 = document.querySelector('[data-potenciadoresCategoria]');
-const productos6 = document.querySelector('[data-suplementosCategoria]');
+const productos1 = document.querySelector('[data-cosmeticos]');
+const productos2 = document.querySelector('[data-fitoterapeuticos]');
+const productos3 = document.querySelector('[data-homeomaticos]');
+const productos4 = document.querySelector('[data-nutricionales]');
+const productos5 = document.querySelector('[data-potenciadores]');
+const productos6 = document.querySelector('[data-suplementos]');
 const adminProducts = document.querySelector('[data-adminProducts]');
 
 const render = async () => {
@@ -53,37 +53,37 @@ const render = async () => {
         }
         if (productos1) {
             productos1.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'cosmeticosCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'cosmeticos').forEach(elemento => {
             productos1.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
         if (productos2) {
             productos2.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'fitoterapeuticosCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'fitoterapeuticos').forEach(elemento => {
                 productos2.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
         if (productos3) {
             productos3.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'homeopaticosCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'homeopaticos').forEach(elemento => {
                 productos3.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
         if (productos4) {
             productos4.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'nutricionalesCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'nutricionales').forEach(elemento => {
                 productos4.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
         if (productos5) {
             productos5.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'potenciadoresCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'potenciadores').forEach(elemento => {
                 productos5.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
         if (productos6) {
             productos6.innerHTML = '';
-            allProducts.filter(product => product.categoria === 'suplementosCategoria').forEach(elemento => {
+            allProducts.filter(product => product.categoria === 'suplementos').forEach(elemento => {
                 productos6.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
             });
         }
