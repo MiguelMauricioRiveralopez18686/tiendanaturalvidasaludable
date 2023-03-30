@@ -5,12 +5,6 @@
       "email": "mmrl1861986@gmail.com",
       "password": "6302693302Lrm?",
       "id": "a195f63a-a599-4a23-8dcc-242759ccccbf"
-    },
-    {
-      "name": "Miguel Mauricio Rivera Lopez",
-      "email": "miguelmauricioriveralopez@petalmail.com",
-      "password": "6302693302Lrm",
-      "id": "2c8aa147-7f62-48bb-87d7-9aa074c449c0"
     }
   ],
   "categorias": [
@@ -44,7 +38,7 @@
       "imageUrl": "https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-ortiga-aloe-vera-small.jpg",
       "name": "Shampoo de Ortiga con Aloe Vera 500 gramos",
       "price": "$27.000",
-      "categoria": "Cosméticos",
+      "categoria": "cosmeticos",
       "description": "Para todo tipo de cabello, revitaliza y embellece el cabello. Aplique una cantidad en la zona del cuero cabelludo con masajes circulares y ascendentes, hasta lograr compelta humectación. Deja actuar por treinta (30) segundos. Retirar con enjuague con abundante agua.",
       "id": "dd3a3f0b-824f-4ccd-a174-0c6b31ae6a04"
     },
@@ -52,15 +46,15 @@
       "imageUrl": "https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-sin-sal-small.png",
       "name": "Shampoo Prevención Caida Sin Sal",
       "price": "$25.000",
-      "categoria": "Cosméticos",
+      "categoria": "cosmeticos",
       "description": "Nutre y fortalece la raíz favoreciendo el crecimiento natural del cabello.",
       "id": "793db432-c53b-4bb0-b661-e4a4d07b8b8a"
     },
     {
       "imageUrl": "https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/cosm/shampoo-savila-small.jpg",
-      "name": "Shampoo de Savila",
+      "name": "Shampoo Natural de Sabila",
       "price": "$27.000",
-      "categoria": "Cosméticos",
+      "categoria": "cosmeticos",
       "description": "Para todo tipo de cabello, revitaliza y embellece el cabello.",
       "id": "71899320-5299-426c-aa75-a33369b81879"
     },
@@ -68,9 +62,17 @@
       "imageUrl": "https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/fito/korean-ginseng-small.jpg",
       "name": "Korean Ginseng",
       "price": "$17.000",
-      "categoria": "Fitoterapeuticos",
+      "categoria": "fitoterapeuticos",
       "description": "Estimula el sistema inmunológico, lo que podría ayudar al cuerpo a combatir infecciones y enfermedades.\n",
       "id": "29485528-5332-47b1-bbbc-fd9377a6d7b0"
+    },
+    {
+      "imageUrl": "https://miguelmauricioriveralopez18686.github.io/tiendanaturalvidasaludable/assets/img/productos/homeo/gotas-felicidad-small.jpg",
+      "name": "Gotas de la Felicidad",
+      "price": "$17.000",
+      "categoria": "homeopaticos",
+      "description": "Actúa como tranquilizante natural mejorando los transtornos del sueño, angustia, tristeza, estres y anciedad.",
+      "id": "c7cc8de6-83b3-4132-9d10-4d5794b1f8a5"
     }
   ]
 }
