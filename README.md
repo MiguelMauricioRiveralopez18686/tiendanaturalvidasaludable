@@ -2,6 +2,10 @@ Ecommerce Tienda Natural Vida Saludable | Challenge # 4 Front End Alura Latam - 
 
 ![image](https://user-images.githubusercontent.com/91698396/228950289-e500abd9-c9a0-4c7b-bf24-41e6ce1f5566.png)
 
+La Tienda Natural Vida Saludable es una empresa dedica a la medicina natural, a la venta de productos naturales, clasificados en diferentes categorías: Fitoterapéuticos, homeopáticos, nutricionales, suplementos, potenciadores y cosméticos.
+También se ofrece a los clientes asesoría y productos naturales para todo tipo de enfermedad, aclarando que los productos son de base natural y no farmacéutica. Los productos no intentan diagnosticar, curar o tratar ninguna enfermedad y no reemplaza la consulta con un profesional de la salud.
+
+
 Cosméticos
 En esta sección encontrara productos para el cuidado corporal de la piel, el cabello, etc.
 
