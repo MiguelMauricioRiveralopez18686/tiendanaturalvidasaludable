@@ -3,8 +3,8 @@ import {productosServicios} from "../servicios/productos-servicios.js";
 export const nuevoProducto = (name, price, imageUrl, id) => {
     const contenido = `
              <div class="product__card-edit hidden ">
-                <button class="btnDelete" type="button"><img src="/assets/img/icons/delete.svg" alt="edition_icon" class="iconEdit" data-delete></button>
-                <a href="../screens/edit-product.html?id=${id}"><img src="/assets/img/icons/edit.svg" alt="edition_icon" class="iconEdit" data-edit></a>
+                <button class="btnDelete" type="button"><img src="../assets/img/icons/delete.svg" alt="edition_icon" class="iconEdit" data-delete></button>
+                <a href="../screens/edit-product.html?id=${id}"><img src="../assets/img/icons/edit.svg" alt="edition_icon" class="iconEdit" data-edit></a>
             </div>
             <div class="imgContainer">
                 <img class="product__card--img" src = "${imageUrl}" alt = "imagen_del_producto">
